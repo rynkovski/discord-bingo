@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Honk&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  font-family: "Honk";
+}
