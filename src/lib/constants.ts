@@ -1,0 +1,22 @@
+export const defaultBingoOptions = [
+  { column: "loldle", title: "loldle", status: false },
+  { column: "pokedle", title: "pokedle", status: false },
+  { column: "stop_cham", title: "stop cham", status: false },
+  { column: "tft", title: "tft", status: false },
+  { column: "wyslane_cv", title: "wyslane cv", status: false },
+  { column: "dzieki_za_dzisiaj", title: "dzieki za dzisiaj", status: false },
+  { column: "szymek_fomo", title: "szymek fomo", status: false },
+  { column: "jolie_jolie", title: "jolie jolie", status: false },
+  { column: "classcat", title: "classcat", status: false },
+  { column: "larox_barman", title: "larox barman", status: false },
+  { column: "kosa_szymek_daniel", title: "kosa szymek-daniel", status: false },
+  { column: "tirem", title: "{...} tirem", status: false },
+  { column: "object_object", title: "[Object object]", status: false },
+  { column: "stylowanie_buttona", title: "stylowanie buttona", status: false },
+  { column: "pisanie_endpointow", title: "pisanie endpointow", status: false },
+  {
+    column: "daniel_wejdzie_na_disc",
+    title: "daniel wejdzie na disc",
+    status: false,
+  },
+];
