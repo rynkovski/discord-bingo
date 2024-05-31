@@ -9,12 +9,12 @@ function BingoTitle() {
       <h1 className="mb-6 text-4xl font-bold text-center sm:text-6xl">
         Discord Bingo
       </h1>
-      <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
-        <div className="flex gap-1">
+      <div className="flex flex-col items-center justify-between gap-4 sm:justify-center sm:flex-row">
+        {/* <div className="flex gap-1">
           <p className="font-semibold">Current streak:</p>
           <p>0</p>
           <p className="animate-wiggle ">🔥</p>
-        </div>
+        </div> */}
         <div className="flex gap-1">
           <p className="font-semibold">Today is:</p>
           <p>{today}</p>
