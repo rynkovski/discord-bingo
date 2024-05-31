@@ -25,13 +25,13 @@ function BingoCard({
 
   const handleClick = () => {
     setChecked(!checked);
-    console.log(column);
     updateBingoMutation({ column, checked });
   };
+
   return (
     <Button
       onClick={handleClick}
-      className="shadow-md sm:h-24"
+      className="text-xs shadow-md sm:text-md sm:h-24"
       variant={checked ? "secondary" : "destructive"}
     >
       {title}
