@@ -29,13 +29,24 @@ function BingoCard({
   };
 
   return (
-    <Button
-      onClick={handleClick}
-      className="text-xs shadow-md sm:text-md sm:h-24"
-      variant={checked ? "secondary" : "destructive"}
-    >
-      {title}
-    </Button>
+    <>
+      {title === "DISCORD" ? (
+        <Button
+          className="w-20 h-20 text-xs shadow-md sm:w-full sm:text-md sm:h-24 text-wrap"
+          variant={"secondary"}
+        >
+          {title}
+        </Button>
+      ) : (
+        <Button
+          onClick={handleClick}
+          className="w-20 h-20 text-xs shadow-md sm:w-full sm:text-md sm:h-24 text-wrap"
+          variant={checked ? "secondary" : "destructive"}
+        >
+          {title}
+        </Button>
+      )}
+    </>
   );
 }
 

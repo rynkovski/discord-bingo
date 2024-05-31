@@ -8,6 +8,11 @@ function BingoBoard() {
   const { isLoading, isError, error: errorMessage } = useGetBingoData();
   const { toast } = useToast();
 
+  const discordButton = {
+    column: "default_discord",
+    title: "DISCORD",
+    status: true,
+  };
   function hashString(input: string): number {
     let hash = 0;
     if (input.length === 0) return hash;
@@ -47,6 +52,8 @@ function BingoBoard() {
   const currentDate = new Date().toISOString().slice(0, 10);
   const hash = hashString(currentDate);
   const shuffledBingoCards = shuffleArray(defaultBingoOptions, hash);
+
+  shuffledBingoCards.splice(12, 0, discordButton);
 
   if (isError) {
     toast({
