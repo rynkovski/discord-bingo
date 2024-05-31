@@ -32,7 +32,7 @@ function BingoCard({
     <>
       {title === "DISCORD" ? (
         <Button
-          className="w-20 h-20 text-xs shadow-md sm:w-full sm:text-md sm:h-24 text-wrap"
+          className="text-xs shadow-md min-w-12 min-h-12 sm:h-24 sm:text-md text-wrap"
           variant={"secondary"}
         >
           {title}
@@ -40,7 +40,7 @@ function BingoCard({
       ) : (
         <Button
           onClick={handleClick}
-          className="w-20 h-20 text-xs shadow-md sm:w-full sm:text-md sm:h-24 text-wrap"
+          className="text-xs shadow-md min-w-12 min-h-12 sm:h-24 sm:text-md text-wrap"
           variant={checked ? "secondary" : "destructive"}
         >
           {title}

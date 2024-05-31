@@ -28,7 +28,7 @@ export const defaultBingoOptions = [
   { column: "skarpeta", title: "skarpeta w gaciach", status: false },
   {
     column: "rostek_jeremi",
-    title: "gadanie na rostka/jeremiego",
+    title: "gadanie na rostka/ jeremiego",
     status: false,
   },
 ];
